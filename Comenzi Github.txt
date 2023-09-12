@@ -1,0 +1,52 @@
+1. Setting Up Git:
+
+Initialize a new Git repository: git init
+Clone a repository: git clone <repository_url>
+2. Configuration:
+
+Configure your username: git config --global user.name "Your Name"
+Configure your email: git config --global user.email "youremail@example.com"
+3. Basic Workflow:
+
+Check the status of your repository: git status
+Add changes to the staging area: git add <file>
+Commit changes: git commit -m "Commit message"
+Push changes to a remote repository: git push
+4. Branches:
+
+Create a new branch: git branch <branch_name>
+Switch to a branch: git checkout <branch_name>
+Create and switch to a new branch: git checkout -b <new_branch_name>
+Delete a branch: git branch -d <branch_name>
+5. Merging:
+
+Merge a branch into the current branch: git merge <branch_name>
+6. Remote Repositories:
+
+Add a remote repository: git remote add <remote_name> <remote_url>
+Fetch changes from a remote repository: git fetch <remote_name>
+Pull changes from a remote repository: git pull <remote_name> <branch_name>
+Push changes to a remote repository: git push <remote_name> <branch_name>
+7. Resolving Conflicts:
+
+View merge conflicts: git diff
+Manually resolve conflicts in a file
+Add resolved files: git add <resolved_file>
+Commit the resolved changes: git commit -m "Merge conflict resolution"
+8. History and Logs:
+
+View commit history: git log
+Show the changes in a specific commit: git show <commit_hash>
+9. Tags:
+
+Create a new tag: git tag <tag_name>
+Push tags to remote: git push --tags
+10. Collaboration:
+
+Create a pull request: Create a pull request on the GitHub website.
+Review and merge pull requests on GitHub.
+11. Undoing Changes:
+
+Discard changes in a file: git checkout -- <file>
+Revert a commit: git revert <commit_hash>
+These are some of the most common GitHub commands and actions. Remember to replace placeholders like <repository_url>, <branch_name>, and <remote_name> with the appropriate values for your project. Additionally, always make sure to use these commands with caution, especially when making changes to remote repositories, as they can have a significant impact on your project's history.
